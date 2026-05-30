@@ -1,17 +1,479 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0; url=https://www.linkedin.com/in/ricardovirgenscoelho/">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>RVC Tech</title>
+    <title>RVC TECH | Cybersecurity & Cloud Security</title>
 
-    <script>
-        window.location.href = "https://www.linkedin.com/in/ricardovirgenscoelho/";
-    </script>
+    <meta name="description"
+        content="RVC TECH - Cybersecurity, Cloud Security e Identity & Access Management.">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: "Segoe UI", Arial, sans-serif;
+            background: #0d1117;
+            color: #f5f5f5;
+            line-height: 1.7;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        header {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            background:
+                linear-gradient(rgba(13,17,23,.90),
+                rgba(13,17,23,.95));
+        }
+
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 60px;
+            width: 100%;
+        }
+
+        .hero-text {
+            flex: 1;
+        }
+
+        .hero-image {
+            flex: 0 0 380px;
+            text-align: center;
+        }
+
+        .hero-image img {
+            width: 350px;
+            height: 350px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 4px solid #00c8ff;
+            box-shadow: 0 0 30px rgba(0,200,255,.35);
+        }
+
+        h1 {
+            font-size: 4rem;
+            color: #00c8ff;
+        }
+
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 15px;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            color: #d1d5db;
+        }
+
+        .buttons {
+            margin-top: 30px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 14px 28px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: .3s;
+        }
+
+        .btn-primary {
+            background: #00c8ff;
+            color: #000;
+        }
+
+        .btn-secondary {
+            border: 1px solid #00c8ff;
+            color: #00c8ff;
+        }
+
+        .btn:hover {
+            transform: translateY(-3px);
+        }
+
+        section {
+            padding: 80px 0;
+        }
+
+        .section-title {
+            color: #00c8ff;
+            font-size: 2.2rem;
+            margin-bottom: 30px;
+        }
+
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            gap: 20px;
+            margin-top: 40px;
+        }
+
+        .stat {
+            background: #161b22;
+            padding: 25px;
+            border-radius: 12px;
+            text-align: center;
+            border: 1px solid #30363d;
+        }
+
+        .stat h3 {
+            color: #00c8ff;
+            font-size: 2rem;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+            gap: 25px;
+        }
+
+        .card {
+            background: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 12px;
+            padding: 25px;
+        }
+
+        .card h3 {
+            color: #00c8ff;
+            margin-bottom: 15px;
+        }
+
+        .timeline {
+            border-left: 3px solid #00c8ff;
+            padding-left: 25px;
+        }
+
+        .job {
+            margin-bottom: 40px;
+        }
+
+        .job h3 {
+            color: #00c8ff;
+            margin-bottom: 5px;
+        }
+
+        .job span {
+            color: #9ca3af;
+        }
+
+        .tech-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit,minmax(180px,1fr));
+            gap: 15px;
+        }
+
+        .tech {
+            background: #161b22;
+            padding: 15px;
+            text-align: center;
+            border-radius: 10px;
+            border: 1px solid #30363d;
+        }
+
+        footer {
+            background: #161b22;
+            text-align: center;
+            padding: 40px;
+            border-top: 1px solid #30363d;
+        }
+
+        @media(max-width:900px){
+
+            .hero{
+                flex-direction: column-reverse;
+                text-align:center;
+            }
+
+            .hero-image{
+                flex:auto;
+            }
+
+            h1{
+                font-size:2.8rem;
+            }
+
+            h2{
+                font-size:1.5rem;
+            }
+
+            .stats{
+                grid-template-columns: repeat(2,1fr);
+            }
+
+            .hero-image img{
+                width:250px;
+                height:250px;
+            }
+        }
+
+        @media(max-width:600px){
+
+            .stats{
+                grid-template-columns:1fr;
+            }
+
+            h1{
+                font-size:2.2rem;
+            }
+        }
+    </style>
 </head>
+
 <body>
-    <p>Redirecionando para o LinkedIn...</p>
+
+<header>
+
+    <div class="container hero">
+
+        <div class="hero-text">
+
+            <h1>RVC TECH</h1>
+
+            <h2>Ricardo Coelho</h2>
+
+            <p class="subtitle">
+                Especialista em Segurança da Informação<br>
+                Cybersecurity • Cloud Security • Identity & Access Management
+            </p>
+
+            <br>
+
+            <p>
+                Mais de 27 anos de experiência em Tecnologia da Informação,
+                Infraestrutura, Segurança da Informação, Governança e Cloud Security.
+            </p>
+
+            <div class="buttons">
+
+                <a href="https://www.linkedin.com/in/ricardovirgenscoelho/"
+                   target="_blank"
+                   class="btn btn-primary">
+                    LinkedIn
+                </a>
+
+                <a href="mailto:ricardo.coelho@rvctech.com.br"
+                   class="btn btn-secondary">
+                    Contato
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="hero-image">
+
+            <img src="assets/ricardo-coelho.jpg"
+                 alt="Ricardo Coelho">
+
+        </div>
+
+    </div>
+
+</header>
+
+<section>
+
+    <div class="container">
+
+        <h2 class="section-title">Sobre</h2>
+
+        <p>
+            Profissional com mais de 27 anos de experiência em Tecnologia da Informação,
+            atuando em operações, projetos de infraestrutura, segurança da informação,
+            governança corporativa e consultoria especializada.
+        </p>
+
+        <div class="stats">
+
+            <div class="stat">
+                <h3>27+</h3>
+                <p>Anos de Experiência</p>
+            </div>
+
+            <div class="stat">
+                <h3>7+</h3>
+                <p>Anos em Liderança</p>
+            </div>
+
+            <div class="stat">
+                <h3>500+</h3>
+                <p>Conexões Profissionais</p>
+            </div>
+
+            <div class="stat">
+                <h3>5</h3>
+                <p>Países Atendidos</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section>
+
+    <div class="container">
+
+        <h2 class="section-title">Especialidades</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>Cybersecurity</h3>
+                <p>Security Operations, Incident Response, Vulnerability Management e Governança de Segurança.</p>
+            </div>
+
+            <div class="card">
+                <h3>Identity & Access Management</h3>
+                <p>Microsoft Entra ID, MFA, Conditional Access, Identity Governance e Zero Trust.</p>
+            </div>
+
+            <div class="card">
+                <h3>Cloud Security</h3>
+                <p>Microsoft 365, Azure Security, Compliance e Cloud Governance.</p>
+            </div>
+
+            <div class="card">
+                <h3>Email Security</h3>
+                <p>SPF, DKIM, DMARC, BIMI, MTA-STS e TLS-RPT.</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section>
+
+    <div class="container">
+
+        <h2 class="section-title">Experiência Profissional</h2>
+
+        <div class="timeline">
+
+            <div class="job">
+                <h3>Valgroup</h3>
+                <span>Especialista em Segurança da Informação</span>
+            </div>
+
+            <div class="job">
+                <h3>RVC Tecnologia da Informação</h3>
+                <span>Consultor de Tecnologia da Informação</span>
+            </div>
+
+            <div class="job">
+                <h3>Secureway Tecnologia</h3>
+                <span>Gerente de Operações</span>
+            </div>
+
+            <div class="job">
+                <h3>Aché Laboratórios</h3>
+                <span>Coordenador de Infraestrutura de TI</span>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section>
+
+    <div class="container">
+
+        <h2 class="section-title">Tecnologias</h2>
+
+        <div class="tech-grid">
+
+            <div class="tech">Microsoft 365</div>
+            <div class="tech">Microsoft Entra ID</div>
+            <div class="tech">Intune</div>
+            <div class="tech">Azure</div>
+            <div class="tech">Sophos</div>
+            <div class="tech">Fortinet</div>
+            <div class="tech">BeyondTrust</div>
+            <div class="tech">Tanium</div>
+            <div class="tech">FireMon</div>
+            <div class="tech">UpGuard</div>
+            <div class="tech">Cloudflare</div>
+            <div class="tech">GitHub</div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section>
+
+    <div class="container">
+
+        <h2 class="section-title">Certificações</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                AWS Certified Cloud Practitioner
+            </div>
+
+            <div class="card">
+                EXIN Artificial Intelligence Foundation
+            </div>
+
+            <div class="card">
+                Sophos Endpoint Certified Engineer
+            </div>
+
+            <div class="card">
+                Introduction to FinOps
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<footer>
+
+    <h3>RVC TECH</h3>
+
+    <p>
+        Cybersecurity • Cloud Security • Identity & Access Management
+    </p>
+
+    <br>
+
+    <p>
+        © 2026 RVC TECH. Todos os direitos reservados.
+    </p>
+
+</footer>
+
 </body>
 </html>

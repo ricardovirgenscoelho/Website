@@ -1,18 +1,20 @@
-# RVC TECH - Website Redirect Repository
+# RVC TECH - Corporate Website
 
-This repository hosts the public redirect website for the RVC TECH domain using GitHub Pages.
+This repository hosts the official RVC TECH corporate website, published through GitHub Pages.
 
 ## Purpose
 
-This repository is used to provide a lightweight public website and custom domain redirection service for professional branding and identity exposure.
+This repository provides the public-facing website for RVC TECH, showcasing professional expertise, cybersecurity capabilities, cloud security knowledge, identity and access management experience, certifications, and professional background.
 
-The primary purpose is to redirect visitors from the corporate domain to the official LinkedIn profile.
+The website serves as a professional digital presence and central point of contact for business, networking, and consulting opportunities.
 
 ## Files
 
-* `index.html` → HTML redirect page
+* `index.html` → Main website page
 * `CNAME` → Custom domain mapping for GitHub Pages
-* `README.md` → Repository documentation
+* `README.md` → Project documentation
+* `assets/ricardo-coelho.jpg` → Professional profile photo
+* `assets/*` → Website assets and branding resources
 
 ## Domain
 
@@ -24,35 +26,101 @@ rvctech.com.br
 
 https://www.rvctech.com.br
 
-### LinkedIn Profile
+### Professional Profile
 
 https://www.linkedin.com/in/ricardovirgenscoelho/
 
 ## Technologies
 
-* GitHub Pages
 * HTML5
+* CSS3
+* GitHub Pages
 * HTTPS
 * Custom DNS
 * GitHub CDN
 
+## Website Sections
+
+### Home
+
+Professional introduction and corporate branding.
+
+### About
+
+Professional summary highlighting more than 27 years of experience in Information Technology, Infrastructure, Cybersecurity, Governance, and Cloud Security.
+
+### Specialties
+
+* Cybersecurity
+* Identity & Access Management (IAM)
+* Cloud Security
+* Email Security
+
+### Professional Experience
+
+Highlights of professional experience including:
+
+* Valgroup
+* RVC Tecnologia da Informação
+* Secureway Tecnologia
+* Aché Laboratórios
+
+### Technologies
+
+* Microsoft 365
+* Microsoft Entra ID
+* Intune
+* Azure
+* Sophos
+* Fortinet
+* BeyondTrust
+* Tanium
+* FireMon
+* UpGuard
+* Cloudflare
+* GitHub
+
+### Certifications
+
+* EXIN Certified Integrator in Secure Cloud Services
+* EXIN Cloud Computing Foundation
+* EXIN Information Security Foundation (ISO/IEC 27001)
+* EXIN ITIL Foundation
+* EXIN Privacy and Data Protection Essentials
+* AWS Certified Cloud Practitioner
+* Sophos Endpoint Certified Engineer
+* Microsoft Certified Solutions Associate: Office 365
+
+### Contact
+
+Professional contact information and LinkedIn profile.
+
+## Security
+
+This repository contains only public website content.
+
+No sensitive information, credentials, private keys, internal documentation, security configurations, or infrastructure secrets are stored in this repository.
+
 ## DNS Configuration
 
-This repository uses GitHub Pages with custom domain configuration through Registro.br DNS.
-
-### DNS Records
+### GitHub Pages
 
 | Type | Name | Value |
-|---|---|---|
+|--------|--------|--------|
 | CNAME | www | ricardovirgenscoelho.github.io |
 
-## Redirect Architecture
+## Deployment
 
-```text
-www.rvctech.com.br
-        ↓
-GitHub Pages
-        ↓
-index.html
-        ↓
-LinkedIn Profile
+The website is automatically published through GitHub Pages from the `main` branch.
+
+## Notes
+
+This repository is intended exclusively for the public RVC TECH website and professional branding.
+
+Infrastructure documentation, email security configurations, DNS architecture, and operational security documentation should be maintained in separate private repositories.
+
+---
+
+© 2026 RVC TECH
+
+Cybersecurity • Cloud Security • Identity & Access Management
